@@ -11,7 +11,7 @@
 
 通过使用label_tool_detection，可以对单张图像进行以下方式标定： 
 
-<div align=middle><img width="300" height="450" src="https://g.hz.netease.com/nisp-AI-projects/label_tool_detection/raw/master/sups_img_for_readme/img1.png"/></div>
+<div align=middle><img width="300" height="450" src="https://github.com/humengdoudou/label_tool_detection/blob/master/sups_img_for_readme/img1.png?raw=true"/></div>
 
 图1 使用label_tool_detection标定结果示意图
 
@@ -40,8 +40,6 @@
 
 1. 	https://g.hz.netease.com/nisp-AI-projects/label_tool_detection
 1. 	https://github.com/puzzledqs/BBox-Label-Tool
-1. 	多类别的目标检测框标定工具BBox-Label-Tool使用流程
-
 
 ### 3. 图像的收集标定与格式转换
 本小节主要介绍图像的收集与标定流程、标定结果的校验、训练测试图像列表的生成、Pascal VOC格式的.xml文件转换、通过标定标签crop局部图像区域等步骤，相关代码可以参照label_tool_detection 项目中的代码。
@@ -49,14 +47,14 @@
 #### 3.1 图像收集 
 图像的收集比较简单，我们使用label_tool_detection完成智能服饰识别中的服饰图像标定，图像主要来自于淘宝图像、百度街拍图片等，直接使用爬虫收集图片即可，图像风格类似图2。
 
-<div align=middle><img width="600" height="650" src="https://g.hz.netease.com/nisp-AI-projects/label_tool_detection/raw/master/sups_img_for_readme/img2.png"/></div>
+<div align=middle><img width="600" height="650" src="https://github.com/humengdoudou/label_tool_detection/blob/master/sups_img_for_readme/img2.png?raw=true"/></div>
 
 图2 收集图像风格示意
 
 #### 3.2 图像的标定
 标定使用label_tool_detection完成标定，一张图像标定结果示意如图3所示：
 
-<div align=middle><img width="550" height="480" src="https://g.hz.netease.com/nisp-AI-projects/label_tool_detection/raw/master/sups_img_for_readme/img3.png"/></div>
+<div align=middle><img width="550" height="480" src="https://github.com/humengdoudou/label_tool_detection/blob/master/sups_img_for_readme/img3.png?raw=true"/></div>
 
 图3 label_tool_detection结果示意图
 
@@ -64,7 +62,7 @@
 
 系统的标签与图片组织路径如图4所示，label_tool.py放在label_tool_detection的根目录，Annotations存放最后生成的.xml文件，JPEGImages下按子文件夹目录存放.jpg/.jpeg图片，Labels存放标注好的.txt标签文件。Annotations、JPEGImages、Labels存放相同的子目录文件即可，例如截图中所示的20180123文件夹，该文件夹需要手动新建。
 
-<div align=middle><img width="250" height="350" src="https://g.hz.netease.com/nisp-AI-projects/label_tool_detection/raw/master/sups_img_for_readme/img4.png"/></div>
+<div align=middle><img width="250" height="350" src="https://github.com/humengdoudou/label_tool_detection/blob/master/sups_img_for_readme/img4.png?raw=true"/></div>
 
 图4 标定工具文件组织格式
 
@@ -85,7 +83,7 @@
 
 Labels/*.txt文件内的标定结果随单张图像的标定完成，自动生成，格式如图5所示：
 
-<div align=middle><img width="600" height="100" src="https://g.hz.netease.com/nisp-AI-projects/label_tool_detection/raw/master/sups_img_for_readme/img5.png"/></div>
+<div align=middle><img width="600" height="100" src="https://github.com/humengdoudou/label_tool_detection/blob/master/sups_img_for_readme/img5.png?raw=true"/></div>
 
 图5 标定文件格式
 
