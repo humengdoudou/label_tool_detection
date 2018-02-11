@@ -7,7 +7,7 @@
 
 ### 1. 背景
 
-本文主要介绍多类别的目标检测框标定工具label_tool_detection[1]使用流程，代码基于开源目标标定工具BBox-Label-Tool[2]修改。
+本文主要介绍多类别的目标检测框标定工具label_tool_detection[1]使用流程，代码基于开源目标标定工具BBox-Label-Tool[1]修改。
 
 通过使用label_tool_detection，可以对单张图像进行以下方式标定： 
 
@@ -38,7 +38,6 @@
 
 ### 2. 参考文献
 
-1. 	https://g.hz.netease.com/nisp-AI-projects/label_tool_detection
 1. 	https://github.com/puzzledqs/BBox-Label-Tool
 
 ### 3. 图像的收集标定与格式转换
@@ -112,7 +111,7 @@ Annotations文件夹下需要手动新建对应的如20180123子文件夹。
 
 #### 4.1 使用代码列表清单
 
-直接查看参考文献[1]即可，第一版本[3]可提供部分参考。
+查看本git即可
 
 ### 5. 修订明细
 
